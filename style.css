@@ -44,9 +44,19 @@ img {
 }
 
 /* Three column grid with a nice big gap */
-.topic-content{
+.topic-contentImageEditing{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    /* bring the whole section in off the sides of the page */
+    width: 70%;
+    /* top margin of 3em and center right/left */
+    margin: 3em auto;
+}
+
+.topic-contentProgramming{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 6em;
     /* bring the whole section in off the sides of the page */
     width: 70%;
@@ -79,6 +89,32 @@ img {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
+.topic-cardCertificate1{
+    background-color: red;
+    width: 80%;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topic-cardCertificate2{
+    background-color: blue;
+    width: 80%;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.topic-card-intro{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2em
+}
 /* Styling for the topic card titles */
 .topic-card-text{
     font-size: 1.5em;
