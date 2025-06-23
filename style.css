@@ -132,6 +132,7 @@ img {
 
 .topic-card-intro{
     background-color: rgb(71, 71, 71);
+    height: fit-content;
     color: white;
     padding: 2em;
     border-radius: 0.5em;
